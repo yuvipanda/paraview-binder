@@ -4,7 +4,7 @@ import os
 
 paraview = {
     'command': [
-        'Visualizer',
+        os.getcwd() + "/node_modules/.bin/Visualizer",
         '--port', '{port}',
         '--server-only',
         '--paraview', 'paraview',
